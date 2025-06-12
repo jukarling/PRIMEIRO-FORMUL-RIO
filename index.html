@@ -6,40 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="nome_aluna">Nome do Aluno:</label>
-<input type="text" name="nome_aluna" id="nome_aluna" placeholder="Aluno">
+    
+<label for="primeiro_numero">Primeiro Número:</label>
+<input type="number" name="primeiro_numero" id="primeiro_numero" placeholder="selecione um numero">
 <br>
 <br>
-<label for="número_chamada">Número da Chamada:</label>
-<input type="number" name="número_chamada" id="número_chamada" placeholder="Número da Chamada">
+<label for="segundo_numero">Segundo Número:</label>
+<input type="number" name="segundo_numero" id="segundo_numero" placeholder="selecione um numero">
 <br>
 <br>
-<label for="data_nascimento">Data de Nascimento:</label>
-<input type="date" name="data_nascimento" id="data_nascimento">
+<button type="button" onclick="soma()">Somar</button>
+<button type="button" onclick="subtrai()">Subtrair</button>
 <br>
-<br>
-<label for="email_aluna">E-mail:</label>
-<input type="email" name="email_aluna" id="E-mail:" placeholder="E-mail">
-<br>
-<br>
-<label for="senha_aluno">Senha:</label>
-<input type="password" name="senha_aluna" id="senha_aluna" placeholder="####">
-<br>
-<br>
-<label for="turma_aluna">Turma do Aluno:</label>
-<select name="turma_aluna" id="turma_aluna">
-<option value="">Selecione:</option>
-<br>
-<option value="">1°A DS</option>
-<br>
-<option value="">1°B NEM</option>
-<br>
-<option value="">1°C GUIA</option>
-</select>
-<br>
-<br>
-<label for="observações_aluno">Observações do Aluno:</label>
-<br>
-<textarea name="observações_aluno" id="observações_aluno"></textarea>
+<p id="Resultado"></p>
+<p id="Resultado"></p>
+
+<script src="script.js"></script>
 </body>
 </html>
